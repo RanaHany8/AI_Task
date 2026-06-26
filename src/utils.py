@@ -40,7 +40,6 @@ def plot_curves(results, save_path: str | Path | None = None):
     plt.close(fig)
     return save_path
 
-
 def evaluate_and_plot_confusion_matrix(
     model,
     dataloader,
