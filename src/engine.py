@@ -37,7 +37,6 @@ def val_step(model, dataloader, loss_fn, device):
 
     return val_loss / len(dataloader), val_acc / len(dataloader)
 
-
 def evaluate(model, dataloader, loss_fn, device):
     """Evaluate loss and accuracy on a held-out dataset."""
     return val_step(model, dataloader, loss_fn, device)
