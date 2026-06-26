@@ -33,7 +33,6 @@ FLOWERS102_CLASSES = [
     "trumpet creeper", "blackberry lily",
 ]
 
-
 def get_transforms(image_size: int = 224):
     train_transform = transforms.Compose([
         transforms.Resize((image_size, image_size)),
