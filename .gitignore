@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large — downloads automatically on first run)
+data/
+*.tgz
+*.tar.gz
+*.zip
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+
+# Notebook generated artifacts (keep PNG figures for README)
+notebooks/training_log.txt
+notebooks/metrics.txt
+notebooks/*.pt
+!notebooks/training_curves.png
+!notebooks/confusion_matrix.png
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
