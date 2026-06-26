@@ -20,7 +20,6 @@ def create_efficientnet_b0(num_classes: int, freeze_features: bool = True) -> nn
     )
 
     return model
-
 def unfreeze_top_layers(model: nn.Module, num_layers: int = 4) -> nn.Module:
     """Unfreeze the last *num_layers* blocks in the feature extractor for fine-tuning."""
     feature_blocks = list(model.features.children())
