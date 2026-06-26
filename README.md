@@ -210,7 +210,6 @@ See [`requirements.txt`](requirements.txt):
 | README as standalone report | Done | this file |
 
 ---
-
 ## GitHub Submission Checklist
 
 - [x] Git repository initialized with structured commits
