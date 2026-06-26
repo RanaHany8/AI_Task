@@ -21,7 +21,6 @@ LR = 1e-3
 FINE_TUNE_LR = 1e-4
 BATCH_SIZE = 32
 
-
 def main():
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
   print(f"Device: {device}")
